@@ -24,7 +24,7 @@ class Developer extends Functionary {
     }
 
     code() {
-        return `${this._name} Esta codando em ${this.codeLanguage}`
+        return `${this._name} está codando em ${this.codeLanguage}`
 
     }
 }
@@ -35,7 +35,7 @@ class Designer extends Functionary {
         this.editores = editores;
     }
     code() {
-        return `${this._name} Esta trabanhando com a ferramenta ${this.editores}`
+        return `${this._name} está trabalhando com a ferramenta ${this.editores}`
 
     }
 }
